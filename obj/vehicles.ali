@@ -1,0 +1,126 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=core2
+A -mmacosx-version-min=10.17.0
+A -fPIC
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U vehicles%b		vehicles.adb		506cfef4 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+Z system%s		system.ads		system.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U vehicles%s		vehicles.ads		bd5b89d9 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190518041255 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-conca4.ads		20190518041256 7e642b20 system.concat_4%s
+D s-conca6.ads		20190518041254 d2c72db2 system.concat_6%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-imgint.ads		20190518041254 02dbe0c2 system.img_int%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20190518041255 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20190518041254 aedef97e system.stream_attributes%s
+D s-string.ads		20190518041255 8fe54fb7 system.strings%s
+D s-ststop.ads		20190518041254 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+D vehicles.ads		20191204135336 13af5cb4 vehicles%s
+D vehicles.adb		20191204135336 02c4140f vehicles%b
+G a e
+G c Z s b [printitem vehicles 5 14 none]
+G c Z s b [manuf vehicles 6 13 none]
+G c Z s s [vehicleDA vehicles 3 9 none]
+G c Z s s [vehicleDF vehicles 3 9 none]
+G c Z s s [vehicleIP vehicles 3 9 none]
+G c Z s b [printitem vehicles 13 25 none]
+G c Z s b [manuf vehicles 14 24 none]
+G c Z s b [printitem vehicles 22 25 none]
+G c Z s b [manuf vehicles 23 24 none]
+G c Z s s [carDA vehicles 8 9 none]
+G c Z s s [carDF vehicles 8 9 none]
+G c Z s s [carIP vehicles 8 9 none]
+G c Z s s [planeDA vehicles 16 9 none]
+G c Z s s [planeDF vehicles 16 9 none]
+G c Z s s [planeIP vehicles 16 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 31|1r6 1r23 32|1r6 1r23 2r6
+X 6 a-textio.ads
+57K13*Text_IO 727e16 31|1w10 1r27 32|1w10 1r27
+465U14*Put 32|10s10 15s7
+508U14*Put_Line 32|7s10
+X 8 a-uncdea.ads
+20u15*Unchecked_Deallocation 32|2w10
+X 31 vehicles.ads
+2K9*Vehicles 25l5 25e13 32|4b14 27l5 27t13
+3R9*Vehicle 3e38 5p14 5r31 6p13 6r26 6r42 8r20 14r49 16r22 23r51 32|6r31
+. 18r26 18r42 21r49 24r51
+5U14*PrintItem 5>24 32|6b14 7l38 7t47
+5r24 V{3R9} 32|6b24
+6V13*Manuf{boolean} 6>19 6>35 32|18b13 19t28
+6r19 V{3R9} 32|18b19
+6c35 W<3R9> 32|18b35
+8R9*Car<3R9> 12e14 13P25 13r42 14P24 14r37 32|9r42 21r37 22r22 22r44
+10i7*Doors{integer} 32|10r51
+11a7*Manu{string} 32|10r27 22r37 22r51
+13U25*PrintItem<5p14> 13>35 32|9b25 11l8 11t17
+13r35 C{8R9} 32|9b35 10r25 10r49
+14V24*Manuf{boolean}<6p13> 14>30 14>42 32|21b24 22t61
+14r30 C{8R9} 32|21b30 22r35
+14c42 W<3R9> 32|21b42 22r17 22r48
+16R9*Plane<3R9> 21e14 22P25 22r42 23P24 23r37 32|13r42 24r37 25r22 25r46
+18i7*Doors{integer} 32|15r81
+19i7*Engines{integer} 32|15r50
+20a7*Manu{string} 32|15r26 25r39 25r55
+22U25*PrintItem<5p14> 22>35 32|13b25 16l8 16t17
+22r35 P{16R9} 32|13b35 15r24 15r48 15r79
+23V24*Manuf{boolean}<6p13> 23>30 23>44 32|24b24 25t64
+23r30 P{16R9} 32|24b30 25r37
+23c44 W<3R9> 32|24b44 25r17 25r52
+

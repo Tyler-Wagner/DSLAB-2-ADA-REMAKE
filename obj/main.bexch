@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB 2 ADA REMAKE/containers.gpr
+20221103001113
+[BOUND OBJECT FILES]
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB 2 ADA REMAKE/obj/list.o
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB 2 ADA REMAKE/obj/Transportation.o
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB 2 ADA REMAKE/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/Users/tylerwagner/Desktop/ATC/ADA/DSLAB 2 ADA REMAKE/obj/
+-L/Users/tylerwagner/Desktop/ATC/ADA/DSLAB 2 ADA REMAKE/obj/
+-L/users/tylerwagner/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/
+-static
+/users/tylerwagner/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/libgnat.a
